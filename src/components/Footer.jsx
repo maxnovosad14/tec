@@ -1,5 +1,4 @@
 import React from "react";
-import bgImg from "./../img/png/footer-bg.png";
 
 function Footer() {
   return (
@@ -15,7 +14,8 @@ function Footer() {
               life span.
             </p>
           </div>
-          <div className="">
+
+          <div className="flex flex-col items-center mr-12">
             <h6 className="mb-4 flex justify-center text-white font-semibold uppercase md:justify-start">
               sitemap
             </h6>
@@ -35,7 +35,7 @@ function Footer() {
 
           <div className="div">
             <p className="uppercase mb-4 text-white">newsletter</p>
-            <input type="text" className="border-2 border-orange-400 bg-transparent text-white " />
+            <input type="text" className="border-2 border-orange-400 bg-transparent text-white lowercase placeholder:capitalize" placeholder="Email" />
             <button className=" bg-orange-400 h-[43.2px] w-14 text-white">Send</button>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, {useState, useEffect } from "react";
 
 import Navbar from "./Navbar";
 
@@ -6,8 +6,6 @@ import background1 from "./../img/png/background.png";
 import background2 from "./../img/png/background2.png";
 import background3 from "./../img/png/bg-4.png";
 
-// import background2 from "./../img/bg-video2.mp4";
-// import background1 from "./../img/bg-vid.mp4";
 
 function Header() {
   const [currentImage, setCurrentImage] = useState(0);

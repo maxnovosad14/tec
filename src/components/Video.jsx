@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import video from "../img/video/bg-vid.mp4";
 
-
 function Video() {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);

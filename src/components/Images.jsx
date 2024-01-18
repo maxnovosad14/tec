@@ -4,8 +4,6 @@ import bath from "./../img/png/house2.png";
 import bed from "./../img/png/house3.png";
 import kitchen from "./../img/png/house4.png";
 
-import stone from "./../img/png/stone.png";
-import glass from "./../img/png/glass.png";
 
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
